@@ -1,0 +1,340 @@
+TOTAL TESTING SCORE: 0.0%
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SUMMARY BY TEST SET
+
+Test Set                                      Pts Max  % Ttl  % Max
+--------------------------------------------- --- --- ------ ------
+tests/threads/Rubric.alarm                      0/ 18   0.0%/ 20.0%
+tests/threads/Rubric.priority                   0/ 38   0.0%/ 40.0%
+tests/threads/Rubric.mlfqs                      0/ 37   0.0%/ 40.0%
+--------------------------------------------- --- --- ------ ------
+Total                                                   0.0%/100.0%
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SUMMARY OF INDIVIDUAL TESTS
+
+Functionality and robustness of alarm clock (tests/threads/Rubric.alarm):
+	  ** 0/ 4 tests/threads/alarm-single
+	  ** 0/ 4 tests/threads/alarm-multiple
+	  ** 0/ 4 tests/threads/alarm-simultaneous
+	  ** 0/ 4 tests/threads/alarm-priority
+
+	  ** 0/ 1 tests/threads/alarm-zero
+	  ** 0/ 1 tests/threads/alarm-negative
+
+	- Section summary.
+	      0/  6 tests passed
+	      0/ 18 points subtotal
+
+Functionality of priority scheduler (tests/threads/Rubric.priority):
+	  ** 0/ 3 tests/threads/priority-change
+	  ** 0/ 3 tests/threads/priority-preempt
+
+	  ** 0/ 3 tests/threads/priority-fifo
+	  ** 0/ 3 tests/threads/priority-sema
+	  ** 0/ 3 tests/threads/priority-condvar
+
+	  ** 0/ 3 tests/threads/priority-donate-one
+	  ** 0/ 3 tests/threads/priority-donate-multiple
+	  ** 0/ 3 tests/threads/priority-donate-multiple2
+	  ** 0/ 3 tests/threads/priority-donate-nest
+	  ** 0/ 5 tests/threads/priority-donate-chain
+	  ** 0/ 3 tests/threads/priority-donate-sema
+	  ** 0/ 3 tests/threads/priority-donate-lower
+
+	- Section summary.
+	      0/ 12 tests passed
+	      0/ 38 points subtotal
+
+Functionality of advanced scheduler (tests/threads/Rubric.mlfqs):
+	  ** 0/ 5 tests/threads/mlfqs-load-1
+	  ** 0/ 5 tests/threads/mlfqs-load-60
+	  ** 0/ 3 tests/threads/mlfqs-load-avg
+
+	  ** 0/ 5 tests/threads/mlfqs-recent-1
+
+	  ** 0/ 5 tests/threads/mlfqs-fair-2
+	  ** 0/ 3 tests/threads/mlfqs-fair-20
+
+	  ** 0/ 4 tests/threads/mlfqs-nice-2
+	  ** 0/ 2 tests/threads/mlfqs-nice-10
+
+	  ** 0/ 5 tests/threads/mlfqs-block
+
+	- Section summary.
+	      0/  9 tests passed
+	      0/ 37 points subtotal
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/alarm-single FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/alarm-single:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/alarm-multiple FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/alarm-multiple:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/alarm-simultaneous FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/alarm-simultaneous:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/alarm-priority FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/alarm-priority:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/alarm-zero FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/alarm-zero:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/alarm-negative FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/alarm-negative:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-change FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-change:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-preempt FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-preempt:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-fifo FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-fifo:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-sema FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-sema:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-condvar FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-condvar:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-one FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-one:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-multiple FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-multiple:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-multiple2 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-multiple2:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-nest FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-nest:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-chain FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-chain:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-sema FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-sema:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/priority-donate-lower FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/priority-donate-lower:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-load-1 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-load-1:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-load-60 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-load-60:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-load-avg FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-load-avg:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-recent-1 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-recent-1:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-fair-2 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-fair-2:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-fair-20 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-fair-20:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-nice-2 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-nice-2:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-nice-10 FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-nice-10:
+
+squish-pty bochs -q
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DETAILS OF tests/threads/mlfqs-block FAILURE:
+
+Run didn't start up properly: no "Pintos booting" message
+
+OUTPUT FROM tests/threads/mlfqs-block:
+
+squish-pty bochs -q

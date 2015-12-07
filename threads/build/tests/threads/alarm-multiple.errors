@@ -1,0 +1,12 @@
+Prototype mismatch: sub main::SIGVTALRM () vs none at /home/andrew/pintos/src/utils/pintos line 935.
+Constant subroutine SIGVTALRM redefined at /home/andrew/pintos/src/utils/pintos line 927.
+00000000000i[      ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/local/lib/bochs/plugins'
+00000000000i[      ] BXSHARE not set. using compile time default '/usr/local/share/bochs'
+00000000000i[      ] lt_dlhandle is (nil)
+00000000000p[      ] >>PANIC<< dlopen failed for module 'unmapped': file not found
+00000000000e[SIM   ] notify called, but no bxevent_callback function is registered
+========================================================================
+Bochs is exiting with the following message:
+[      ] dlopen failed for module 'unmapped': file not found
+========================================================================
+00000000000i[SIM   ] quit_sim called with exit code 1
